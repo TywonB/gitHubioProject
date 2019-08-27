@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Raleway|Reem+Kufi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tywon GitHub IO</title>
+</head>
+<body>
+    <div>
+        <img src="media/safar-safarov-MSN8TFhJ0is-unsplash2.jpg" alt="" class="img-responsive">
+        <div>
+            <img src="media/imageedit_2_7753468494.png" alt="" class="circleimg img-responsive">
+        </div>
+        <div class="welcome">
+            <p><span class="myName">TYWON BERRY</span></p>
+            <p class="welcome2">JUNIOR DEVELOPER</p>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="top" title="Go to top">Top</button>
+    <div class="navbar">
+        <strong><a href="#about">ABOUT</a></strong>
+        <strong><a href="#projects">PROJECTS</a></strong>
+        <strong><a href="#contact">CONTACT</a></strong>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 id="about" class="about">ABOUT</h2>
+                <p class="aboutp">Hello my name is Tywon Berry and welcome to my portfolio. I am a junior developer at Mississippi Coding Academy. I chose to persue in computer coding because it is interesting to create a functional website and to learn more things about computers and what they can do. I would like to keeping persuing computer coding by hopefully working for Microsoft or Google. If you like to see my <a href="#projects" id="projects">projects</a> feel free to do so. I hope you enjoy!</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 id="projects" class="projects">PROJECTS</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="images col-sm-4">
+                <h3 class="pizza">Pizza Project</h3>
+                <img src="media/Screenshot (1).png">
+                <button><a href="https://github.com/TywonB/pizzaProject.git" class="img-responsive">See Code</a></button>
+            </div>
+            <div class="images col-sm-4">
+                <h3 class="parallax">Playground</h3>
+                <img src="media/Screenshot (2).png">
+                <button><a href="https://github.com/TywonB/playgroundProject.git" class="img-responsive">See Code</a></button>
+            </div>
+            <div class="images col-sm-4">
+                <h3 class="detroix">Detroix</h3>
+                <img src="media/Screenshot (3).png">
+                <button><a href="https://github.com/TywonB/detroixProject.git" class="img-responsive">See Code</a></button>
+            </div>
+            <div class="images col-sm-4">
+                <h3 class="venedor">Venedor</h3>
+                <img src="media/Screenshot (4).png">
+                <button><a href="https://github.com/TywonB/venedorProject.git" class="img-responsive">See Code</a></button>
+            </div>
+            <div class="images col-sm-4">
+                <h3 class="airbox">Airbox</h3>
+                <img src="media/Screenshot (5).png">
+                <button><a href="https://github.com/TywonB/airboxProject.git" class="img-responsive">See Code</a></button>
+            </div>
+            <div class="images col-sm-4">
+                <h3 class="bloom">Bloom Landing Page</h3>
+                <img src="media/Screenshot (6).png">
+                <button><a href="https://github.com/TywonB/bloomProject.git" class="img-responsive">See Code</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="contactinfo col-sm-12">
+                <h2 id="contact" class="contact">CONTACT</h2>
+                <p><a href="https://github.com/TywonB">GitHub</a></p>
+                <p><a href="https://www.linkedin.com/in/tywon-berry-b18aab189/">LinkedIn</a></p>
+                <p>Email: <a href="mailto:dtywon601@gmail.com">dtywon601@gmail.com</a></p>
+                <p>Cell Number: 6015598753</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+            document.getElementById("top").style.display = "block";
+            } else {
+            document.getElementById("top").style.display = "none";
+            }
+        }
+        
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
