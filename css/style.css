@@ -70,6 +70,7 @@
     .about {
         font-family: 'Reem Kufi', sans-serif;
         margin-top: 55px;
+        padding-top: 70px;
         font-size: 25px;
         text-decoration: underline;
     }
@@ -172,6 +173,7 @@
     .about {
         font-family: 'Reem Kufi', sans-serif;
         margin-top: 55px;
+        padding-top: 65px;
         font-size: 35px;
         text-decoration: underline;
     }
@@ -256,6 +258,7 @@
     .about {
         font-family: 'Reem Kufi', sans-serif;
         margin-top: 55px;
+        padding-top: 75px;
         font-size: 50px;
         text-decoration: underline;
     }
