@@ -1,3 +1,7 @@
+.bloom {
+    font-size: 22px;
+}
+
 @media (min-width: 320px) {
     /* Mobile S */
     #top {
@@ -99,7 +103,7 @@
     
     .pizza, .parallax, .detroix {
         font-family: 'Raleway', sans-serif;
-        margin-top: 10px;
+        margin-top: 65px;
     }
     
     .airbox, .venedor, .bloom {
